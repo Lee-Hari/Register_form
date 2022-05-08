@@ -1,0 +1,25 @@
+
+.color{
+height: 592px;
+background: linear-gradient(violet, pink);
+}
+.centering{
+max-width: 450px;
+margin: auto;
+background: white;
+padding: 0px;
+}
+.button {
+  background-color:white;
+  color: black;
+  padding: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: solid;
+}
+.button {border-radius: 12px;}
+.button:hover {
+    background-color:violet;
+    color: black;
+    text-decoration: underline;
+   }

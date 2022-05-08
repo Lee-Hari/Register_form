@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function message()
+            {
+            var con=confirm("Hey.! You Register successfully..!");
+            }
+            </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="pro1.css">
+    <title>Registration Form</title>
+  
+    </head>
+    <body>
+    <br>
+    <div class="color">
+    <br><br><br>
+    <div class="centering">
+    <form style="border:black; border-style:solid;">
+    <h1>&emsp;<i class="fa fa-spinner fa-spin" style="font-size:40px;color:violet"></i> Register Your Details..</h1>
+    
+    <label>&emsp;Full Name : <input type="text" name="Name" size="15"></label>
+    <label>&emsp;Initial : <input type="text" name="initial" size="1"></label>
+    <br><br>
+
+     <label ="birthday">&emsp;Birth Date : </label>
+     <input type="date" name="birthday">
+    <br><br>
+
+    <label>&emsp;Gender : </label> <select>
+    <option >--select--</option>
+    <option >Male</option>
+    <option >Female</option>
+    <option >Trans_gender</option>
+     </select></label>
+    <br><br>
+
+    <label>&emsp;Known Language : </label>
+    <label><input type="checkbox" name="lan1">English</label>
+    <label><input type="checkbox" name="lan2">Hindi</label>
+    <label><input type="checkbox" name="lan3">others</label> 
+    <br> <br>
+
+    <label>&emsp;Current pursuing : </label>
+    <label><input type="radio" name="scl">School</label>
+    <label><input type="radio" name="scl">College</label>
+    <br><br>
+
+    <label>&emsp;Known Programming : </label>
+    <label><input type="checkbox" name="pro1">java</label>       <label><input type="checkbox" name="pro2">C</label>
+    <label><input type="checkbox" name="pro3">C++</label>
+    <label><input type="checkbox"name="pro4">python</label>
+    <br><br>
+
+    <label>&emsp;Mail Id : <input type="email" name="mail_id" size="15"></label>
+    <br><br>
+
+    <label>&emsp;Contact Number : <input type="text" name="phnum" size="15" maxlength="10"></label>
+    <br><br><br>
+
+    <center><button class="button" onClick="message()">Register</button>
+    <br><br>
+    </form>
+    </div>
+    </div>
+    </body>
+</html>
